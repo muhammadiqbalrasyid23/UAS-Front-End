@@ -1,0 +1,36 @@
+.autocomplete-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    width: 30%;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.autocomplete-list li {
+    color: #000;
+    padding: 15px;
+    width: calc(100% - 30px);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.autocomplete-input {
+    padding: 5px 15px;
+    width: calc(100% - 70%);
+    border-radius: 1px;
+    outline: none;
+    color: #000;
+    font-weight: reguler;
+    background-color: white;
+}
+
+.lagu{
+    position: relative;
+    left: 500px;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
